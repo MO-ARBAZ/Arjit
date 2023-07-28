@@ -1,0 +1,90 @@
+.live {
+
+    background-image: url("../.././img/events/livebg.jpg");
+    padding-left: 1.3rem;
+    height: 656px;
+    padding-bottom: 90px;
+    padding-top: 105px;
+
+    .live__container {
+        @include flex (center, center, column, null);
+    }
+    
+}
+
+[data-overlay] {
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+
+
+.live__outerPlay {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 2px dashed rgb(255, 8, 8);
+    
+    .live__play {
+        width: 100px;
+        height: 100px;
+        background-color: rgb(255, 8, 8);
+        border-radius: 50%;
+        margin-left:0.9rem;
+        margin-top: 0.8rem;
+
+        .live__icon {
+            margin-left: 2.5rem;
+            margin-top: 2.5rem;
+        }
+    }
+}
+
+.live__h2 {
+    color: $secondaryColor;
+    font-weight: map-get($fontWeights, bold);
+    padding-top: 2.5rem;
+}
+
+.live__h1 {
+    color:rgb(255, 8, 8) ;
+    letter-spacing: 0.1rem;
+    font-weight: map-get($fontWeights, bold);
+}
+
+.live__p {
+    line-height: 1.5;
+    color: $secondaryColor;
+}
+
+.live__span {
+    padding-left: 8rem;
+}
+
+@import "../2-components/button";
+
+// client-says
+
+.clientSays {
+    @include flex (center, center, column, null);
+    background-image: url("../.././img/events/clientbg.jpg");
+
+    padding-left: 1.3rem;
+    height: 500px;
+    padding-bottom: 90px;
+    padding-top: 10px;
+
+    .clientSays__img {
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+    }
+    .clientSays__h2 {
+        padding-top: 1rem;
+    }
+}
+
+
+

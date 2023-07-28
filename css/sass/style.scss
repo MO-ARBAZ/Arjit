@@ -1,0 +1,29 @@
+// 0-abstract
+@import "0-abstract/variables";
+@import "0-abstract/mixin";
+@import "0-abstract/placeholder";
+@import "0-abstract/function";
+
+// 1-base
+@import "1-base/normalize";
+@import "1-base/reset";
+@import "1-base/typography";
+
+// 2-components
+
+@import "2-components/_navLinks.scss";
+@import "2-components/_navicons.scss";
+@import "2-components/_button.scss";
+
+// 3-layout
+
+@import "3-layout/navbar";
+@import "3-layout/featureImg";
+@import "3-layout/about";
+@import "3-layout/events";
+@import "3-layout/liveVideo";
+@import "3-layout/team";
+@import "3-layout/album";
+@import "3-layout/gallery";
+@import "3-layout/contact";
+@import "3-layout/footer";
